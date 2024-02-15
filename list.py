@@ -2,7 +2,7 @@
 # print(mark)#output=[78,89,90,67]
 # print(mark[3])#output=67
 # print(type(mark))# output:<class 'list'>
-# print(len(mark))#output=4e
+# print(len(mark))#output=4
 # print(mark[1:4])#[89, 90, 67]
 # print(mark[:4])#[78, 89, 90, 67]
 # print(mark[1:])#[89, 90, 67]
@@ -46,4 +46,4 @@ print(list ,list2) #[1, 2, 4, 5, 6] ['param', 'debojit', 'giti', 'hirak']
 
 list.remove(4)#use to remove the first value from left side
 list2.pop(2)#use to remve the value as their index 
-print(list,list2)
+print(list,list2)#[1, 2, 5, 6] ['param', 'debojit', 'hirak']
