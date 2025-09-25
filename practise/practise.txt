@@ -1,0 +1,4 @@
+hello from python.
+python can develop app.
+python is popular programming language
+i can be a python developer after learning it
