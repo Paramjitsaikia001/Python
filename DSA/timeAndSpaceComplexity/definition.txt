@@ -1,0 +1,3 @@
+time complexity: no. of operation are happened according to the input size n.
+
+space complexity: no. of memory space are required according to the input size n.

@@ -1,0 +1,4 @@
+hello my name is paramjit saikia
+i am learning data structure and algorithms
+i love coding and problem solving
+this is a sample text file for file handling in python
