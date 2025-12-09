@@ -64,9 +64,12 @@ cars = [
 # for_sort.sort(key=lambda x : x%3)
 # print("sorting one using sort function",for_sort)
 
-cars.sort(key=lambda x :x["car"])
-print("sorting cars using sort function",cars)
+# cars.sort(key=lambda x :x["car"])
+# print("sorting cars using sort function",cars)
 
 
 # sorted 
+
+
+print("sorting cars using sorted function",sorted(cars, reverse=True,key=lambda x :x["year"]))
 
