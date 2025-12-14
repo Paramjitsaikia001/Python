@@ -12,3 +12,26 @@ Learning python
 ## DECORETOR
 1. staticmethod
 2. classmethod
+
+
+## usage of __str__ method in class
+```
+WITHOUT this method the object class will print like 
+
+print(s) #s is the object of class
+
+OUTPUT:
+<__main__.Student object at 0x7f8c...>
+
+
+WITH this method the output will be like
+
+def __str__(self):
+        return f"Student Name: {self.name}, Age: {self.age}"
+
+s = Student("Paramjit", 21)
+print(s)
+
+
+OUTPUT :Student Name: Paramjit, Age: 21
+```

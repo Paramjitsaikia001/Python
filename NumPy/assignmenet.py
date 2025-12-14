@@ -90,16 +90,16 @@ def update_marks(connection, student_id, new_sessional):
 # ---------------------------
 # DELETE STUDENT RECORD
 # ---------------------------
-# def delete_student(connection, student_id):
-#     try:
-#         cursor = connection.cursor()
-#         query = "DELETE FROM student_marks WHERE student_id = %s"
-#         cursor.execute(query, (student_id,))
-#         connection.commit()
-#         print("Record deleted successfully.")
-#     except Error as e:
-#         connection.rollback()
-#         print("Delete failed. ROLLBACK executed.", e)
+def delete_student(connection, student_id):
+    try:
+        cursor = connection.cursor()
+        query = "DELETE FROM student_marks WHERE student_id = %s"
+        cursor.execute(query, (student_id,))
+        connection.commit()
+        print("Record deleted successfully.")
+    except Error as e:
+        connection.rollback()
+        print("Delete failed. ROLLBACK executed.", e)
 
 
 # ---------------------------

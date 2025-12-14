@@ -1,5 +1,9 @@
-f =open("demo.txt","r")
-data=f.read()
-print(data)
+# f = open("demo.txt","r")
 
-f.close()
+with open("demo.txt","r") as f:
+
+# data=f.read()
+    data = f.readlines()
+    print(data)
+
+# f.close()

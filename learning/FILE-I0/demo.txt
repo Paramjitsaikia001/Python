@@ -1,1 +1,6 @@
 hello python
+hello world
+hello file
+hello demo
+hello text
+hello learning
